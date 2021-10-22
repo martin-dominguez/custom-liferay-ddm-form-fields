@@ -1,0 +1,31 @@
+{
+	"devtool": "source-map",
+	"mode": "development",
+	"entry": {
+		"main": "./work/generated/main.js"
+	},
+	"output": {
+		"filename": "[name].bundle.js",
+		"path": "/home/mdominguez/Workspace/Dev24_2021/dev24-workspace/modules/userdata-field/work/webpack"
+	},
+	"optimization": {
+		"runtimeChunk": {
+			"name": "runtime"
+		},
+		"splitChunks": {
+			"chunks": "initial",
+			"name": "vendor"
+		}
+	},
+	"module": {
+		"rules": [
+			{
+				"enforce": "post",
+				"test": {},
+				"use": [
+					"/home/mdominguez/Workspace/Dev24_2021/dev24-workspace/modules/userdata-field/node_modules/@liferay/npm-bundler/lib/webpack/loader/imports-loader.js"
+				]
+			}
+		]
+	}
+}

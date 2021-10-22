@@ -33,10 +33,6 @@ const Main = props => {
 		value ? value : predefinedValue
 	);
 
-	useEffect(() => {
-		setCurrentValue(predefinedValue);
-	}, [predefinedValue, setCurrentValue]);
-
 	return <FieldBase
 			label={label}
 			name={name}

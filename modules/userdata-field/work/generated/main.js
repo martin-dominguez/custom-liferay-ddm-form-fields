@@ -1,0 +1,1 @@
+__MODULE__.exports = require('../..');
