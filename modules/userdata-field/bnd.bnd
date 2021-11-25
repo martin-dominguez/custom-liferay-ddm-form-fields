@@ -1,4 +1,4 @@
 Bundle-Name: userdata-field
-Bundle-SymbolicName: com.dev24.dynamic.data.mapping.form.field.type.userdata.field
+Bundle-SymbolicName: com.liferay.lfrsales.dynamic.data.mapping.form.field.type.userdata.field
 Bundle-Version: 1.0.0
 Web-ContextPath: /dynamic-data-userdata-field-form-field

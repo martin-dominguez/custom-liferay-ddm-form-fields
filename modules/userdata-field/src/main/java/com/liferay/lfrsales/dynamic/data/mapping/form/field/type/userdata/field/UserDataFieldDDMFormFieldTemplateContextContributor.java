@@ -1,4 +1,4 @@
-package com.dev24.dynamic.data.mapping.form.field.type.userdata.field;
+package com.liferay.lfrsales.dynamic.data.mapping.form.field.type.userdata.field;
 
 import com.liferay.dynamic.data.mapping.form.field.type.DDMFormFieldTemplateContextContributor;
 import com.liferay.dynamic.data.mapping.model.DDMFormField;
